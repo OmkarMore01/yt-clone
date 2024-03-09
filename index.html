@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .thumbnail {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .channel-logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body class="bg-dark text-light">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <!--navbar-->
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid p-0">
+                        <i class="bi bi-list text-white fs-2 me-3" style="width: 50; height: 50px;"></i>
+                        <a class="navbar-brand" href="#">
+                            <img src="./images/youtube (2).png"  style="width: 30px; height:30px;" alt="logo">
+                            <span class="text-light">YouTube</span>
+                            
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="mx-auto d-flex">
+                                <input type="text"
+                                    class="form-control bg-dark text-white border-secondary rounded-start-pill"
+                                    placeholder="Search" data-bs-theme="dark" style="width: 600px;">
+                                <button class="btn btn-outline-secondary rounded-end-pill">
+                                    <i class="bi bi-search  p-1" style="width: 60%;"></i>
+                                </button>
+                                <button class="btn btn-secondary rounded-circle p-1 ms-3">
+                                    <i class="bi bi-mic p-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="me-3 fs-3 ">
+                            <button class="btn btn-secondary-transparent text-white fs-3 me-3">
+                                <i class="bi bi-camera-video"></i>
+                            </button>
+                            <button type="button"
+                                class="btn btn-secondary-transparent text-white  p-0 me-3 position-relative">
+                                <i class="bi bi-bell fs-3"></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger ">
+                                    9+
+                                </span>
+                                <button class="btn btn-secondary-transparent text-white fs-3 me-3">
+                                    <img src="./images/my.jpg" alt="profile" class="rounded-circle "
+                                        width="40px" height="40px" />
+                                </button>
+                        </div>
+                    </div>
+                </nav>
+                <!--end navbar-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex">
+                <!--sidebar-->
+                <div class="p-0 " style="width: 15%; height: 100vh;">
+                    <nav class="px-2 py-2 rounded-2">
+                        <img src="./images/hpome.jpg" width="20px" alt="home" class="me-3"> Home
+                    </nav>
+                    <nav class="px-2 py-2 rounded-2">
+                        <img src="./images/shorts.jpg" width="20px" alt="shorts" class="me-3"> Shorts
+                    </nav>
+                    <nav class="px-2 py-2 rounded-2">
+                        <img src="./images/subscribe.jpg" alt="Subscription" class="me-3" width="20px"> Subscription
+                    </nav>
+                    <hr class="text-light me-3 ">
+
+                    <nav class="px-2 py-2 rounded-2">
+                       <span class="me-3 fs-5 fw-bolder">You</span> <img src="./images/you.jpg" width="10px" alt="home" > 
+                    </nav>
+                    <nav class="px-2 py-2 rounded-2">
+                        <img src="./images/profile.jpg" width="20px" alt="shorts" class="me-3"> Your channel
+                    </nav>
+                    <nav class="px-2 py-2 rounded-2">
+                        <img src="./images/history.jpg" width="20px" alt="shorts" class="me-3"> History
+                    </nav>
+                    <nav class="px-2 py-2 rounded-2">
+                        <img src="./images/shopping.jpg" alt="Subscription" class="me-3" width="20px"> Your videos
+                    </nav>
+                    <nav class="px-2 py-2 rounded-2">
+                        <img src="images/watchlater.jpg" alt="Subscription" class="me-3" width="20px"> Watch Later
+                    </nav>
+                    <nav class="px-2 py-2 rounded-2">
+                        <img src="./images/showmore.jpg" alt="Subscription" class="me-3" width="20px"> Show more
+                    </nav>
+                    <hr class="text-light me-3 ">
+                    
+                </div>
+                <!--end sidebar-->
+                <!--video-->
+                <div class="" style="width: 85%; height: 100vh;">
+                    <div class="row">
+                        <div class="col-12 d-flex align-items-center">
+                            <button class="btn btn-secondary bg-light text-dark ">All</button>
+                            <button class="btn btn-secondary ms-2">Mixes</button>
+                            <button class="btn btn-secondary ms-2">Watched</button>
+                            <button class="btn btn-secondary ms-2">Java</button>
+                            <button class="btn btn-secondary ms-2">Music</button>
+                            <button class="btn btn-secondary ms-2">News</button>
+                            <button class="btn btn-secondary ms-2">Live</button>
+                            <button class="btn btn-secondary ms-2">HTML</button>
+                            <button class="btn btn-secondary ms-2">Javascript</button>
+                            <button class="btn btn-secondary ms-2">CSS</button>
+                            <button class="btn btn-secondary ms-2">Songs</button>
+                            <button class="btn btn-secondary ms-2">Trending</button>
+                            <button class="btn btn-secondary ms-2">Latest</button>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <!--card-->
+                        <div class="col-md-4 col-sm-6">
+                            <div class="video-card mt-3 mt-3 text-light ">
+                                <img src="./images/rtcthumbnail.jpg" alt="thumbnail" class="img-fluid m-1 thumbnail" />
+
+                                <div class="d-flex gap-2">
+                                    <div>
+                                        <img src="./images/rtclogo.jpg" alt="profile" class="img-fluid channel-logo m-1 me-4" />
+
+                                    </div>
+                                    <div>
+                                        <p class="m-0 mx-3 fs-5">Session-8 YouTube Clone using Bootstrap
+                                        </p>
+                                        <p class="text-white-50 m-0 mx-3">
+                                            Road To Code</p>
+                                        <p class="text-white-50 mx-3">
+                                            1K views . 7 months ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="video-card mt-3 mt-3 text-light ">
+                                <img src="./images/lofithubnail.jpg" alt="thumbnail" class="img-fluid m-1 thumbnail" style="height: 220px;" />
+
+                                <div class="d-flex gap-2">
+                                    <div>
+                                        <img src="./images/feeltheheart.jpg" alt="profile"
+                                            class="img-fluid channel-logo m-1 me-4" />
+                                    </div>
+                                    <div>
+                                        <p class="m-0 mx-3 fs-5">Lofi Vibes | Mashup Playlist | Hindi Mashup Songs
+                                            Playlist</p>
+                                        <p class="text-white-50 m-0 mx-3">Feel The Beat</p>
+                                        <p class="text-white-50 mx-3">1.9M views . 9 months ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="video-card mt-3 mt-3 text-light ">
+                                <img src="./images/kijokeasari.jpg" alt="thumbnail" class="img-fluid m-1 thumbnail" style="height: 220px;" />
+
+                                <div class="d-flex gap-2">
+                                    <div>
+                                        <img src="./images/kesarkelogo.jpg" alt="profile" class="img-fluid channel-logo m-1 me-4" />
+
+                                    </div>
+                                    <div>
+                                        <p class="m-0 mx-3 fs-5">Keejo Kesari Ke Laal | Jai Shree Ram | DJ Remix |
+                                            Ram Mandir Viral Song 2024
+                                        </p>
+                                        <p class="text-white-50 m-0 mx-3"> Karan Kahar</p>
+                                        <p class="text-white-50 mx-3">1.1M views . 6 months ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="video-card mt-3 mt-3 text-light ">
+                                <img src="./images/tmkoc.jpg" alt="thumbnail" class="img-fluid m-1 thumbnail" />
+
+                                <div class="d-flex gap-2">
+                                    <div>
+                                        <img src="./images/sonysablogo.jpg" alt="profile"
+                                            class="img-fluid channel-logo m-1 mx-2" />
+
+                                    </div>
+                                    <div>
+                                        <p class="m-0 mx-3 fs-5">Episode 2005 - Taarak Mehta Ka Ooltah Chashmah - Full
+                                            Episode</p>
+                                        <p class="text-white-50 m-0 mx-3">Sony SAB
+                                        </p>
+                                        <p class="text-white-50 mx-3"> 10.2M views . 5 months ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="video-card mt-3 mt-3 text-light ">
+                                <img src="./images/saibabarthumbnail.jpg" alt="thumbnail" class="img-fluid m-1 thumbnail" style="height: 230px;" />
+
+                                <div class="d-flex gap-2">
+                                    <div>
+                                        <img src="./images/my.jpg" alt="profile"
+                                            class="img-fluid channel-logo m-1 me-4" />
+
+                                    </div>
+                                    <div>
+                                        <p class="m-0 mx-3 fs-5">Sai Baba Aarti
+                                            Kakad Aarti By Pramod Shelke
+                                        </p>
+                                        <p class="text-white-50 m-0 mx-3">Omkar More</p>
+                                        <p class="text-white-50 mx-3">
+                                            7M views . 6 months ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="video-card mt-3 mt-3 text-light ">
+                                <img src="./images/baykothumbnail.jpg" alt="thumbnail" class="img-fluid m-1 thumbnail" />
+
+                                <div class="d-flex gap-2">
+                                    <div>
+                                        <img src="./images/baykologo.jpg" alt="profile"
+                                            class="img-fluid channel-logo m-1 me-4" />
+
+                                    </div>
+                                    <div>
+                                        <p class="m-0 mx-3 fs-5">
+                                            Dil deke tu banja meri bayko Song with Dj Remix
+                                        </p>
+                                        <p class="text-white-50 m-0 mx-3">
+                                            Dj Prajyot Pathade</p>
+                                        <p class="text-white-50 mx-3">
+                                            10.8M views . 3 months ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>
+                </div>
+                <!--end video-->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
