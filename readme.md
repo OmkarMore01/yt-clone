@@ -1,5 +1,5 @@
 # YouTube Website
-
+![screenshot](./images/ytreadme.png)
 ## Overview
 
 This project is a simple YouTube website that allows users to watch and upload videos.
@@ -21,11 +21,3 @@ This project is a simple YouTube website that allows users to watch and upload v
 1. Browse through the available videos on the homepage.
 2. Click on a video thumbnail to watch it.
 3. To upload a video, navigate to the "Upload" section and follow the instructions.
-
-## Contributing
-
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) when submitting pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
